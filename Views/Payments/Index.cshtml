@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AstreeWebApp.Models.Payment>
+
+@{
+    ViewData["Title"] = "Mes paiments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Mes paiments</h2>
+
+<table class="table table-hover text-center table-responsive" style="background-color: #e7f0fa; color: #03396c; border-color: #a0c4ff;border-radius:15px;">
+    <thead>
+        <tr>
+            <th style="background-color: #005b96; color: #ffffff;">ID de sinistre</th>
+            <th style="background-color: #005b96; color: #ffffff;">Montant</th>
+            <th style="background-color: #005b96; color: #ffffff;">Date de paiment</th>
+            <th style="background-color: #005b96; color: #ffffff;">Mode de paiment</th>
+            <th style="background-color: #005b96; color: #ffffff;">Statut</th>
+            <th style="background-color: #005b96; color: #ffffff;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr style="border-color: #a0c4ff;">
+                <td>
+                    @Html.DisplayFor(modelItem => item.PolicyId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Montant)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatePaiment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModeOfPayment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PayStatut)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Modifier</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-success">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a style="float:right;" asp-action="Create" class="btn btn-primary">Ajouter</a>

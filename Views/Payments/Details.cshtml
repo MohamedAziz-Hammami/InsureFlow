@@ -1,0 +1,50 @@
+﻿@model AstreeWebApp.Models.Payment
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin:1%;padding:10px;border:5px outset #0096c7;border-radius:20px;width:contain;">
+    <h3>Details</h3>
+    <div>
+        <h4>Payment</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PolicyId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PolicyId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Montant)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Montant)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DatePaiment)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DatePaiment)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ModeOfPayment)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ModeOfPayment)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PayStatut)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PayStatut)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="link-container">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="link-style">Modifier</a>
+    <a asp-action="Index" class="link-style">Retour à la liste</a>
+</div>

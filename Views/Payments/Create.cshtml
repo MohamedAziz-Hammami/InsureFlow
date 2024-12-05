@@ -1,0 +1,74 @@
+﻿@model AstreeWebApp.Models.Payment
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin:1%;padding:10px;border:5px outset #0096c7;border-radius:20px;">
+    <h3>Ajouter un nouveau paiment</h3>
+    <hr />
+    <div class="container-fluid">
+        <div class="col-md-4" style="width:auto;">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row">
+                    <div class="form-group col-sm">
+                        <label asp-for="Montant" class="control-label">Montant</label>
+                        <input asp-for="Montant" class="form-control" />
+                        <span asp-validation-for="Montant" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="DatePaiment" class="control-label">Date de paiment</label>
+                        <input type="date" asp-for="DatePaiment" class="form-control" />
+                        <span asp-validation-for="DatePaiment" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm">
+                        <label asp-for="ModeOfPayment" class="control-label">Mode de paiment</label>
+                        <select asp-for="ModeOfPayment" class="form-control form-select">
+                            <option value="Carte">Carte</option>
+                            <option value="Virement">Virement</option>
+                            <option value="Cheque">Chèque</option>
+                            <option value="Espece">Espèce</option>
+                        </select>
+                        <span asp-validation-for="ModeOfPayment" class="text-danger"></span>
+                    </div>
+                    <div class="form-groupcol-sm">
+                        <label asp-for="PayStatut" class="control-label"></label>
+                        <select asp-for="PayStatut" class="form-control form-select">
+                            <option value="Paye">Payé</option>
+                            <option value="EnAttente">En Attente</option>
+                            <option value="EnEchec">En Echec</option>
+                        </select>
+                        <span asp-validation-for="PayStatut" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                </div>
+                <!--
+                    <div class="form-group">
+                    <label asp-for="PolicyId" class="control-label"></label>
+                    <input asp-for="PolicyId" class="form-control" />
+                    <span asp-validation-for="PolicyId" class="text-danger"></span>
+                </div>
+                -->
+
+
+
+                <div class="form-group">
+                    <input type="submit" value="Ajouter" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index" class="link-style">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,56 @@
+﻿@model AstreeWebApp.Models.Policy
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin:1%;padding:10px;border:5px outset #0096c7;border-radius:20px;">
+    <h3>Details</h3>
+    <div>
+        <h4>Policy</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.UserId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.UserId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Type)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Type)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DateDeb)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DateDeb)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DateFin)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DateFin)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Prime)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Prime)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PolicStatut)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PolicStatut)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="link-container">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="link-style">Modifier</a> 
+    <a asp-action="Index" class="link-style">Retour à la liste</a>
+</div>

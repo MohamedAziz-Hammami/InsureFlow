@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid welcome" style="position: relative; margin: 2%;">
+    <!-- Blurred Background Image -->
+    <div style="background-image: url('@Url.Content("~/images/family.png")');
+                background-size: cover;
+                background-position: center;
+                filter: blur(6px);
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;">
+    </div>
+    <div class="row align-items-start" style="padding:5px;position: relative; z-index: 2;">
+        <div class="col">
+            <div class="text-center" style="padding:12%;">
+                <h2 class="display-4">BIENVENUE</h2>
+                <h3>Découvrez nos services d'assurance pour une tranquillité d'esprit totale</h3><br /><br />
+                <form asp-controller="Policies" asp-action="">
+                    <button type="submit" class="btn"
+                            style="background-color:#FF6600;box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #FF6600;color:peachpuff;font-size:18px;">
+                        Consultez vos polices
+                    </button>
+                </form>
+
+                
+            </div>
+        </div>
+        <!--
+                    <div class="col">
+                    <img src="@Url.Content("~/images/family.png")" alt="Alternate Text" style="background-image: url('@Url.Content("~/images/family.png")');
+        height: 400px; width: 100%; background-size: cover;" />
+                </div>
+        -->
+        
+    </div>
+</div>

@@ -1,0 +1,71 @@
+﻿@model AstreeWebApp.Models.Claim
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin:1%;padding:10px;border:5px outset #0096c7;border-radius:20px;">
+    <h2>Modifier</h2>
+    <h3>Claim</h3>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="PolicyId" class="control-label"></label>
+                    <input asp-for="PolicyId" class="form-control" />
+                    <span asp-validation-for="PolicyId" class="text-danger"></span>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm">
+                        <label asp-for="DateSinistre" class="control-label">Date de sinistre</label>
+                        <input type="date" asp-for="DateSinistre" class="form-control" />
+                        <span asp-validation-for="DateSinistre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="TypeSinistre" class="control-label">Type de sinistre</label>
+                        <input asp-for="TypeSinistre" class="form-control" />
+                        <span asp-validation-for="TypeSinistre" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm">
+                        <label asp-for="Description" class="control-label">Description</label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="Montant" class="control-label">Montant</label>
+                        <input asp-for="Montant" class="form-control" />
+                        <span asp-validation-for="Montant" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClaimStatut" class="control-label">Statut du sinistre</label>
+                    <select asp-for="ClaimStatut" class="form-control form-select" style="width:300px;">
+                        <option selected disabled>Statut de sinistre</option>
+                        <option value="Ouvert">Ouvert</option>
+                        <option value="EnCours">En cour</option>
+                        <option value="Réglé">Réglé</option>
+                        <option value="Refusé">Refusé</option>
+                    </select>
+                    <span asp-validation-for="ClaimStatut" class="text-danger"></span>
+                </div><br />
+                <div class="form-group">
+                    <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <a asp-action="Index" class="linked-style">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

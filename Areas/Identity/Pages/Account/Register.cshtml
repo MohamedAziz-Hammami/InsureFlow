@@ -1,0 +1,64 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Inscription";
+}
+<div class="text-center" style="margin:1%;padding:10px;border:5px outset #0096c7;border-radius:20px;">
+    <h2 class="text-center">@ViewData["Title"]</h2>
+
+    <h4>Créer un nouveau compte</h4>
+    
+    <div class="container-fluid">
+        <div class="col-md-4" style="width:auto;">
+            <form method="post" class="needs-validation">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.FirstName" class="form-control" placeholder="Prénom" />
+                    <label asp-for="Input.FirstName">Prénom</label>
+                    <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.LastName" class="form-control" placeholder="Nom" />
+                    <label asp-for="Input.LastName">Nom</label>
+                    <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Numéro de téléphone" />
+                    <label asp-for="Input.PhoneNumber">Numéro de téléphone</label>
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" placeholder="Email" />
+                    <label asp-for="Input.Email">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" type="password" id="password" class="form-control" placeholder="Mot de passe" />
+                    <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
+                    <label asp-for="Input.Password">Mot de passe</label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.ConfirmPassword" type="password" class="form-control" placeholder="Confirmer le mot de passe" />
+                    <label asp-for="Input.ConfirmPassword">Confirmer le mot de passe</label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="font-size:large;">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

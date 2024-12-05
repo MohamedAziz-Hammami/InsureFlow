@@ -1,0 +1,27 @@
+﻿@page
+@model AstreeWebApp.Areas.Identity.Pages.Account.LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+    Layout = "_Layout";
+}
+
+<header>
+    <h1>@ViewData["Title"]</h1>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <!-- Form to log out -->
+        <form class="form-inline" method="post">
+            <button type="submit" class="nav-link btn btn-link text-dark">Click here to Logout</button>
+        </form>
+    }
+    else
+    {
+        <p>You have successfully logged out of the application.</p>
+    }
+</header>

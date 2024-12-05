@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\policies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\policies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\policies\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\policies\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\payments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\payments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\payments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\payments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\policies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\policies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\policies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\policies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\claims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\claims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\policies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\policies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|c:\\users\\manel\\source\\repos\\astreewebapp\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70FA9F60-8C96-4BDB-89C0-2368A1925CD7}|AstreeWebApp.csproj|solutionrelative:views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T17:32:51.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Policies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Policies\\Index.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:54:02.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Index.cshtml",
+              "RelativeToolTip": "Views\\Payments\\Index.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAC8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:53:53.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Index.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:50:40.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:01:58.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:56:10.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:47:24.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShowSearchForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\ShowSearchForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Policies\\ShowSearchForm.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\ShowSearchForm.cshtml",
+              "RelativeToolTip": "Views\\Policies\\ShowSearchForm.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:54:30.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Payments\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:54:12.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Payments\\Details.cshtml",
+              "RelativeToolTip": "Views\\Payments\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:53:09.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Details.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Details.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:50:55.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Policies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Details.cshtml",
+              "RelativeToolTip": "Views\\Policies\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:43:30.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Policies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Policies\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:42:41.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:47:16.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Policies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Policies\\Create.cshtml",
+              "RelativeToolTip": "Views\\Policies\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:47:08.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Edit.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:23:31.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Create.cshtml",
+              "ToolTip": "C:\\Users\\MANEL\\source\\repos\\AstreeWebApp\\Views\\Claims\\Create.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:23:27.375Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

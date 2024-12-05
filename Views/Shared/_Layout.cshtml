@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Astree</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AstreeWebApp.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/0694d62c04.js" crossorigin="anonymous"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="@Url.Content("~/images/petitLogo.png")" style="border-radius:20px;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-pills" >
+                            <a class="nav-link active text-capitalize text-center text-light" style="color:white; font-size:16px;padding:15px;margin:auto;width:100px;font-weight: bold;" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+
+                        <li class="nav-item" style="margin:2%; padding:10px;">
+                            <form asp-action="ShowSearchResults" class="d-flex">
+                                <select name="SearchPhrase" class="form-control me-2 form-select" id="autoSizingSelect" style="color: #258cfb; width: 300px;font-size:16px;">
+                                    <option selected>choisir le type de votre police</option>
+                                    <option value="Bien">Bien</option>
+                                    <option value="Argent">Argent</option>
+                                    <option value="Famille">Famille</option>
+                                </select>
+                                <input type="submit" value="Search" class="btn btn-outline-primary" style="font-size:16px;" />
+                            </form>
+                        </li>
+                    </ul>
+                    <a class="btn" style="background-color:#FF6600;box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #FF6600;color:peachpuff;padding:10px;margin-right:5%;font-size:16px;" data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu">
+                        <i class="fa-solid fa-bars"></i> Menu
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-start" id="menu">
+        <div class="offcanvas-header" style="background-color:#0047AB;">
+            <h1 class="offcanvas-title" style="color:aliceblue;">Menu</h1>
+            <button type="button" class="btn-close btn-close-white text-reset" style="color:aliceblue;" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column">
+            <ul class="mb-3 d-grid gap-3" style="list-style:none;">
+                <li class="p-2"><a asp-controller="Policies" asp-action="Index"><i class="fa-solid fa-file-signature"></i> Gérer mes assurances</a></li>
+                <li class="p-2"> <a asp-controller="Payments" asp-action="Index"><i class="fa-solid fa-file-invoice"></i> Suivre mes payments</a></li>
+                <li class="p-2"><a asp-controller="Claims" asp-action="Index"><i class="fa-solid fa-shield-halved"></i> Mes sinistres</a></li>
+            </ul>
+            <div class="mt-auto">
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - AstreeWebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if there is a success message
+            if ($('.alert-success').length) {
+                // Fade out the message after 3 seconds
+                setTimeout(function () {
+                    $('.alert-success').fadeOut('slow');
+                }, 3000); // Change 3000 to the number of milliseconds before fading out
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
